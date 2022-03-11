@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Notifications</string>
+    <string name="to_stock">To stock screen</string>
+    <string name="to_chat">To chat</string>
+    <string name="downloads">Downloads</string>
+    <string name="chat">Chat</string>
+    <string name="stocks">Stocks</string>
+    <string name="working_chat">Working chat</string>
+    <string name="promotions">Promotions</string>
+    <string name="reply_label">Reply</string>
+    <string name="label">Label</string>
+</resources>

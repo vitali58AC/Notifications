@@ -1,0 +1,9 @@
+curl -k -X POST -H "Authorization: key=AAAAxXb649A:APA91bH6QB1fnLReYg-HvCfRTJmRC-YejKXXwkhq3kcQu4XPaoqxEutws4Oh_hJWDDq41Xd3SLHZOiQsW0mEax80NGI3F2wT-R4bBtdsMcBjKC4tLs5-EfDm5TPIhCUn43nbetYe0wrr" -H "Content-Type: application/json" -d "{     \"to\":\"cExQfEi0S6-L5XTexbK154:APA91bGFcOlS6Ga7Mh7yyXdRJ5nnsPGHABY3Y8PzitlXYEj8sa0DQ4ZtfnkYbvixK8wjdnoxYRKlziXJfjwjUX22VT6pwZzBhTELLELzeIEGFg858jr6XGrEWmsfCyN4Aaajo_ZvBut7\",     \"data\": { \"type\":\"message\",   \"data\":{ \"messageId\":\"0\", \"userOwnerId\":\"-1\",  \"userName\": \"Ivan Ivanov\", \"createdAt\":\"1644763441085\",      \"text\": \"Hi\"    } } }" https://fcm.googleapis.com/fcm/send -v -i
+
+
+
+
+
+
+
+curl -k -X POST -H "Authorization: key=AAAAxXb649A:APA91bH6QB1fnLReYg-HvCfRTJmRC-YejKXXwkhq3kcQu4XPaoqxEutws4Oh_hJWDDq41Xd3SLHZOiQsW0mEax80NGI3F2wT-R4bBtdsMcBjKC4tLs5-EfDm5TPIhCUn43nbetYe0wrr" -H "Content-Type: application/json" -d "{     \"to\":\"fKQx2bHdR0ukWp15NBsEkr:APA91bGs-n8J9QpfNh03c__eywfbrzMMoi4UBPU34o6xGr-S68ZM78ebdY0ois3bnS217K9EtNmOfzkj1OuTNwkN7YuUAhV4MX08rUZ_X0zMLxRgzEbR1fsQKprf3aqGCaqpnKaEfkZN\",     \"data\": { \"type\":\"stock\",   \"data\":{ \"stockId\":\"0\",  \"title\": \"New promotion!\", \"description\": \"Today only - everything is free! Almost.\", \"imageUrl\":\"https://accs-market.com/uploads/24486/u45490563.jpg\"    } } }" https://fcm.googleapis.com/fcm/send -v -i
